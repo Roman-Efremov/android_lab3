@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     public static final String ADDRESS = "ADDRESS";
     public static final String COMMENT = "COMMENT";
 
-
     private TextView nameText;
     private TextView addressText;
     private TextView commentText;
@@ -46,8 +45,6 @@ public class MainActivity extends AppCompatActivity {
         nameText = findViewById(R.id.text_name);
         addressText = findViewById(R.id.text_address);
         commentText = findViewById(R.id.text_comment);
-
-        //nameFormActivityResultLauncher;
     }
 
     public void editName(View view) {
